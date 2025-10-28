@@ -1,0 +1,173 @@
+/* styles.css */
+
+/* General body and font settings */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #ffcc00;
+    margin-top: 5px;
+}
+
+/* Main content styling */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #004d99;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+strong {
+    color: #004d99;
+}
+
+p big {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+section img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Project and About list items */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/* Technical skills table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 2px solid #004d99;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #004d99;
+    color: white;
+    font-weight: bold;
+}
+
+/* Contact form styling */
+form {
+    margin-top: 20px;
+}
+
+table tr td {
+    padding: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #004d99;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #003366;
+}
+
+/* Footer social icons */
+footer section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer a img {
+    margin: 0 10px;
+    vertical-align: middle;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+footer a img:hover {
+    transform: scale(1.1);
+}
